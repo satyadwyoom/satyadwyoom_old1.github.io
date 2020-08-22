@@ -1,1 +1,0 @@
-# satyadwyoom.github.io
