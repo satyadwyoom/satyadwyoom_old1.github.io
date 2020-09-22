@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ashvin.me</title>
+    <description>Ashvin Nair, my home on the web
+</description>
+    <link>http://ashvin.me/</link>
+    <atom:link href="http://ashvin.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 01 Jul 2020 06:46:41 +0000</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2020 06:46:41 +0000</lastBuildDate>
+    <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>Accelerating Online Reinforcement Learning with Offline Datasets.</title>
+        <description>
+</description>
+        <pubDate>Mon, 15 Jun 2020 01:07:00 +0000</pubDate>
+        <link>http://ashvin.me/code/2020/06/15/awac.html</link>
+        <guid isPermaLink="true">http://ashvin.me/code/2020/06/15/awac.html</guid>
+        
+        <category>all</category>
+        
+        <category>research</category>
+        
+        
+        <category>code</category>
+        
+      </item>
+    
+      <item>
+        <title>Meta-Reinforcement Learning for Robotic Industrial Insertion Tasks.</title>
+        <description>
+</description>
+        <pubDate>Sun, 10 May 2020 01:07:00 +0000</pubDate>
+        <link>http://ashvin.me/code/2020/05/10/meta-learn-insertion.html</link>
+        <guid isPermaLink="true">http://ashvin.me/code/2020/05/10/meta-learn-insertion.html</guid>
+        
+        <category>all</category>
+        
+        <category>research</category>
+        
+        
+        <category>code</category>
+        
+      </item>
+    
+      <item>
+        <title>Code for context-conditioned RIG released (available on project website)!</title>
+        <description>
+</description>
+        <pubDate>Sun, 05 Jan 2020 01:36:00 +0000</pubDate>
+        <link>http://ashvin.me/code/2020/01/05/ccrig-code.html</link>
+        <guid isPermaLink="true">http://ashvin.me/code/2020/01/05/ccrig-code.html</guid>
+        
+        <category>all</category>
+        
+        <category>news</category>
+        
+        
+        <category>code</category>
+        
+      </item>
+    
+      <item>
+        <title>Deep Reinforcement Learning for Industrial Insertion Tasks with Visual Inputs and Natural Rewards.</title>
+        <description>
+</description>
+        <pubDate>Fri, 01 Nov 2019 01:07:00 +0000</pubDate>
+        <link>http://ashvin.me/code/2019/11/01/industrial-insertion.html</link>
+        <guid isPermaLink="true">http://ashvin.me/code/2019/11/01/industrial-insertion.html</guid>
+        
+        <category>all</category>
+        
+        <category>research</category>
+        
+        
+        <category>code</category>
+        
+      </item>
+    
+      <item>
+        <title>Skew-Fit: State-Covering Self-Supervised Reinforcement Learning.</title>
+        <description>
+</description>
+        <pubDate>Wed, 30 Oct 2019 01:07:00 +0000</pubDate>
+        <link>http://ashvin.me/code/2019/10/30/skewfit.html</link>
+        <guid isPermaLink="true">http://ashvin.me/code/2019/10/30/skewfit.html</guid>
+        
+        <category>all</category>
+        
+        <category>research</category>
+        
+        
+        <category>code</category>
+        
+      </item>
+    
+      <item>
+        <title>Contextual Imagined Goals for Self-Supervised Robotic Learning.</title>
+        <description>
+</description>
+        <pubDate>Tue, 29 Oct 2019 01:07:00 +0000</pubDate>
+        <link>http://ashvin.me/code/2019/10/29/ccrig.html</link>
+        <guid isPermaLink="true">http://ashvin.me/code/2019/10/29/ccrig.html</guid>
+        
+        <category>all</category>
+        
+        <category>research</category>
+        
+        
+        <category>code</category>
+        
+      </item>
+    
+      <item>
+        <title>A couple of preprints of recent work on self-supervised exploration and industrial part insertion released now on arXiv and presented at ICML workshops.</title>
+        <description>
+</description>
+        <pubDate>Sun, 21 Jul 2019 01:08:00 +0000</pubDate>
+        <link>http://ashvin.me/code/2019/07/21/preprints-news.html</link>
+        <guid isPermaLink="true">http://ashvin.me/code/2019/07/21/preprints-news.html</guid>
+        
+        <category>all</category>
+        
+        <category>news</category>
+        
+        
+        <category>code</category>
+        
+      </item>
+    
+      <item>
+        <title>Residual Reinforcement Learning for Robot Control.</title>
+        <description>
+</description>
+        <pubDate>Sat, 15 Sep 2018 23:11:00 +0000</pubDate>
+        <link>http://ashvin.me/code/2018/09/15/residualrl.html</link>
+        <guid isPermaLink="true">http://ashvin.me/code/2018/09/15/residualrl.html</guid>
+        
+        <category>all</category>
+        
+        <category>research</category>
+        
+        
+        <category>code</category>
+        
+      </item>
+    
+      <item>
+        <title>Our work on visual RL with imagined goals (RIG) is released now on arXiv and was presented at ICML workshops on goal specification and lifelong learning!</title>
+        <description>
+</description>
+        <pubDate>Sun, 15 Jul 2018 01:08:00 +0000</pubDate>
+        <link>http://ashvin.me/code/2018/07/15/rigupdate.html</link>
+        <guid isPermaLink="true">http://ashvin.me/code/2018/07/15/rigupdate.html</guid>
+        
+        <category>all</category>
+        
+        <category>news</category>
+        
+        
+        <category>code</category>
+        
+      </item>
+    
+      <item>
+        <title>Visual Reinforcement Learning with Imagined Goals.</title>
+        <description>
+</description>
+        <pubDate>Sun, 15 Jul 2018 01:07:00 +0000</pubDate>
+        <link>http://ashvin.me/code/2018/07/15/rig-paper.html</link>
+        <guid isPermaLink="true">http://ashvin.me/code/2018/07/15/rig-paper.html</guid>
+        
+        <category>all</category>
+        
+        <category>research</category>
+        
+        
+        <category>code</category>
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,164 +1,419 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
-  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
-  <style type="text/css">
-/* Stolen from Sergey */
-  a {
-  color: #1772d0;
-  text-decoration:none;
-  }
-  a:focus, a:hover {
-  color: #f09228;
-  text-decoration:none;
-  }
-  body,td,th {
-        font-family: 'Lato', Verdana, Helvetica, sans-serif;
-        font-size: 14px
-  }
-  strong {
-        font-family: 'Lato', Verdana, Helvetica, sans-serif;
-        font-size: 13px
-  }
-  heading {
-        font-family: 'Lato', Verdana, Helvetica, sans-serif;
-        font-size: 15px;
-        font-weight: 700
-  }
-  </style>
+<!DOCTYPE html>
+<html>
 
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
 
-  <title>Satyadwyoom Kumar</title>
-  
+  <title>Home</title>
+  <meta name="description" content="Ashvin Nair, my home on the web
+">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="canonical" href="index.html">
+  <link rel="alternate" type="application/atom+xml" title="ashvin.me" href="feed.xml" />
+  <link rel="icon" href="assets/me.jpg">
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-57252749-1', 'auto');
+      ga('send', 'pageview');
+    </script>
 </head>
 
-<body>
-  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
-    <tbody><tr>
-      <td>
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tbody><tr>
-            <td width="67%" valign="middle">
-
-              <p align="center"><font size="6">Satyadwyoom Kumar</font>
-
-</p><p>I am an Undergraduate student at <a href="http://nsit.ac.in/">Netaji Subhas Institute of Technology</a>. My Research Interests include Reinforcement Learning, Adversarial ML, Computer Vision<br> <br>
-
-
-
-              <p style="text-align:center">
-                <a href="mailto:satyadwyoom.ec18@nsut.ac.in" target="_blank">Email</a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/satya-d-60bb1a169/" target="_blank">Linkedin</a> &nbsp/&nbsp
-		<a href="https://github.com/satyadwyoom" target="_blank">GitHub</a>
-              </p>
-
-		<!-- <em> <font color="red">There is a poetry in our existence. I want to dance on every rythm and syllable of this poem.</font></em> <br> -->
+<div class="page-content">
+  <div class="wrapper">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript">
+function toggleDiv(divId) {
+$('.hoverlist').each(function(index) {
+if ($(this).attr("id") == divId) {
+  $(this).show(200);
+}
+else {
+  $(this).hide(600);
+}
+});
+}
+$( document ).ready(function() {
+toggleDiv('projects');
+});
+</script>
 
 
-            </td>
+  <body>
 
-            <td width="25%"><img width="300" src="circle-cropped.png"></td>
-          </tr>
-        </tbody></table>
-		<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="index.html">SATYADWYOOM KUMAR</a>
+
+    <nav class="site-nav">
+      <a href="index.html#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
         
-			<tbody><tr><td>
-        <h1>PROJECTS</h1>
-<!-- <i>Imagine you want to take your partner down the memory lane and show them the place where you grew up -- the lake, the greenery and the mountains, and make them hear the melodies of chirping birds, the dancing trees, and the rustling leaves. How would the place look like on a sunny day? How mesmerizing it becomes with clouds and rain?  How important mountains and forests were to the beauty of the area? and how gloomy it became when the lake once dried up due to the drought?</i> <em> <font color="red">What if I give you a tool to do that. </font></em> <br><br> -->
+          
+        
+          
+          <a class="page-link" href="index.html">Home</a>
+          <!-- <a class="page-link" href="javascript:toggleDiv('projects');">Projects</a> -->
+          <!-- <a class="page-link" href="javascript:toggleDiv('research');">Research</a> -->
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
 
 
 
-		</td></tr>
-	</tbody></table>
+<div class="post">
+
+  <!-- <header class="post-header">
+    <h1 class="post-title">Home</h1>
+  </header> -->
+
+  <article class="post-content">
+    <p><img src="assets/me.jpg" alt="Me" align="left" style="width: 35%; margin-right: 20px;" /></p>
+
+<p>I’m a third year undergraduate student at NSIT, University of Delhi. My research interests include Reinforcement Learning, Adversarial Machine-Learning and Robotics.</p> 
+<!-- <p>I am currently working as a Research Intern under <a href='http://faculty.iiitd.ac.in/~arunb/' target="blank">Dr. Arun Balaji</a> at IIIT-Delhi.</p> -->
+
+<p>Contact me at satyadwyoom.ec18<span class="domain">nsut.ac.in</span> Some of my projects are listed below.</p>
+
+  </article>
+
+  <p style="clear: both;"></p>
+
+  <!-- <center>
+    <div class="postsbytags">
+      <ul>
+        
+        <li><a href="javascript:toggleDiv('projects');">projects</a>  |  </li>
+      
+        
+        <li><a href="javascript:toggleDiv('research');">research</a></li>
+      
+
+      
+      </ul>
+    </div>
+  </center> -->
+
+  <br />
+  
+    
+
+  <div class="hoverlist" id="projects">
+  <h2>PROJECTS</h2>
+  <hr>
+  
+    
+      
+        <div class="projectpreview">
+          
+            <img src="assets/DRL-gifs/Lunarlander.gif">
+          
+            <a href="https://github.com/satyadwyoom/CEM-application" target="blank">A Lunar Lander using Evolutionary Method</a>
+            <p>Used Cross-Entropy Method which is a Black-Box optimization method to train a Lunar Lander agent.</p>
+            
+          
+          <div class="date">
+            April 2020
+          </div>
+        </div>
+        <hr>
+      
+    
+  
+    
+      
+        <div class="projectpreview">
+          
+          <img src="assets/DRL-gifs/TD3-BipedalWalker.gif">
+        
+          <a href="https://github.com/satyadwyoom/Deep-Reinforcement-Learning/tree/master/TD3-BipedalWalker" target="blank">Twin Delayed DDPG(TD3) Bipedal Walker</a>
+          <p>TD3 is an improved version of DDPG(An actor-critic algorithm) which uses two Q functions and uses there minimum to calculate the final action value function.</p>
+          
+        
+        <div class="date">
+          April 2020
+        </div>
+      </div>
+      <hr>
 
 
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-            <td width="25%"><img width="400" height="200" src="DRL-gifs/soccer.gif">
-            </td><td width="75%" valign="top">
-              <p><a href="https://github.com/satyadwyoom/Deep-Reinforcement-Learning/blob/master/soccer-DQN/Soccer.ipynb" target="_blank"><heading>A Multi-Agent DQN based Soccer Playing Agent</heading></a><br>
-              <p>Goalies and Strikers were trained from two separate Experience Replays Respectively.<br></p> 
-
-        <br>
-            </td>
-          </tr>
-
-</tbody>
-
-<tbody><tr>
-          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-            <td width="25%"><img width="400" height="200" src="DRL-gifs/Tennis.gif">
-            </td><td width="75%" valign="top">
-              <p><a href="https://github.com/satyadwyoom/Deep-Reinforcement-Learning/tree/master/TENNIS-TD3" target="_blank"><heading>A Multi-Agent TD3 based Tennis Playing Agent</heading></a><br>
-              <p>Both the agents uses their combined experience to improve themselves.<br></p> 
-
-          <br>
-            </td>
-          </tr>
-
-</tbody>
-
-<tbody><tr>
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-              <td width="25%"><img width="400" height="200" src="DRL-gifs/Lunarlander.gif">
-              </td><td width="75%" valign="top">
-                <p><a href="https://github.com/satyadwyoom/CEM-application/tree/master/lunarlander" target="_blank"><heading>Evolutionary algorithm based Lunar Lander</heading></a><br>
-                <p>Cross-entropy method was used to make a smart lander which could land on the surface between the two flags.<br></p> 
-
-            <br>
-              </td>
-            </tr>
-
-</tbody>
-
-<tbody><tr>
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-              <td width="25%"><img width="400" height="200" src="DRL-gifs/TD3-BipedalWalker.gif">
-              </td><td width="75%" valign="top">
-                <p><a href="https://github.com/satyadwyoom/Deep-Reinforcement-Learning/tree/master/TD3-BipedalWalker" target="_blank"><heading>A Twin Delayed DDPG based Bipedal Walker</heading></a><br>
-                <p>The Bipedal Walker not only learns to stand but also learns to run.<br></p> 
-
-            <br>
-              </td>
-            </tr>
-
-</tbody>
-<tbody><tr>
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-              <td width="25%"><img width="400" height="200" src="DRL-gifs/banana-DQN.gif">
-              </td><td width="75%" valign="top">
-                <p><a href="https://github.com/satyadwyoom/Deep-Reinforcement-Learning/tree/master/DQN%20-%20Banana" target="_blank"><heading>A DQN based Banana Navigator and Collector Playing Agent</heading></a><br>
-                <p>The agent Navigates through a region containing yellow and blue bananas lying in close proximity to each-other and collects only yellow bananas.<br></p> 
-
-            <br>
-              </td>
-            </tr>
-
-</tbody>
-
-<tbody><tr>
-  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-    <td width="25%"><img width="400" height="200" src="DRL-gifs/Reacher.gif">
-    </td><td width="75%" valign="top">
-      <p><a href="https://github.com/satyadwyoom/Deep-Reinforcement-Learning/tree/master/continuous-control" target="_blank"><heading>A DDPG based Reacher Agent</heading></a><br>
-      <p>The agent tries to maintain the tip of the arm inside the moving green region. multiple agents with a shared experience replay were trained to achieve fast learning.<br></p> 
-
-  <br>
-    </td>
-  </tr>
-
-</tbody>
-
-<tbody><tr>
-  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-    <td width="25%"><img width="400" height="200" src="DRL-gifs/Pendulum.gif">
-    </td><td width="75%" valign="top">
-      <p><a href="https://github.com/satyadwyoom/Deep-Reinforcement-Learning/tree/master/SAC-Pendulum" target="_blank"><heading>A Soft-Actor-Critic based Agent</heading></a><br>
-      <p>The agent learns to generate momentum by making the Pendulum move to and fro, so when the required momentum is achieved it is able to cross the midline and balance itself to point upwards.<br></p> 
-
-  <br>
-    </td>
-  </tr>
-
-</tbody>
+        <div class="projectpreview">
+            
+          <img src="assets/DRL-gifs/soccer.gif">
+        
+          <a href="https://github.com/satyadwyoom/Deep-Reinforcement-Learning/tree/master/soccer-DQN" target="blank">A Multi-agent DQN based Soccer Player</a>
+          <p>Deep Q-Learning is one of the famous approaches in DRL literature. Used a Competitive-learning approach to train the agents.</p>
+          
+        
+        <div class="date">
+          April 2020
+        </div>
+      </div>
+      <hr>
 
 
-</body></html>
+        <div class="projectpreview">
+              
+          <img src="assets/DRL-gifs/Tennis.gif">
+        
+          <a href="https://github.com/satyadwyoom/Deep-Reinforcement-Learning/tree/master/TENNIS-TD3" target="blank">A Multi-agent TD3 based Tennis Player</a>
+          <p>Twin Delayed DDPG an improved version of DDPG, used for environments with Continuous state-action space. Used a meta-learning approach to train the agents.</p>
+        
+        <div class="date">
+          April 2020
+        </div>
+      </div>
+      <hr>
+
+
+
+
+        <div class="projectpreview">
+                
+          <img src="assets/DRL-gifs/Reacher.gif">
+        
+          <a href="https://github.com/satyadwyoom/Deep-Reinforcement-Learning/tree/master/continuous-control" target="blank">A DDPG based Reacher</a>
+          <p>DDPG is an off-policy method, which is closesly related to q-learning. Used many parallel agent with a shared Experience Replay for faster convergence to an optimal policy.</p>
+          
+        
+        <div class="date">
+          April 2020
+        </div>
+      </div>
+      <hr>
+
+
+
+        <div class="projectpreview">
+                  
+          <img src="assets/DRL-gifs/banana-DQN.gif">
+        
+          <a href="https://github.com/satyadwyoom/Deep-Reinforcement-Learning/tree/master/DQN%20-%20Banana" target="blank">A DQN based Banana Collector</a>
+          <p>Used DQN to train a Banana collector, which only collects yellow bananas from a region where both yellow and blue bananas lie in close proximity to each other.</p>
+          
+        
+        <div class="date">
+          April 2020
+        </div>
+      </div>
+      <hr>
+
+
+        <div class="projectpreview">
+                    
+          <img src="assets/DRL-gifs/Pendulum.gif">
+        
+          <a href="">A SAC based Pendulum</a>
+          <p>Soft Actor Critic (SAC) is an algorithm that optimizes a stochastic policy in an off-policy way, forming a bridge between stochastic policy optimization and DDPG-style approaches.</p>
+          
+        
+        <div class="date">
+          April 2020
+        </div>
+      </div>
+      <hr>
+        
+    
+  
+    
+      
+        <a href="https://github.com/satyadwyoom/Reddit-Flair-Detector" target="blank">
+        <div class="projectpreview">
+          
+            <img src="assets/default.png">
+          
+          Reddit-Flair-Detector<br />
+          
+            
+            
+          
+            
+              python
+            
+            / 
+          
+            
+              nltk
+
+            / 
+          
+            
+              Flask
+
+            / 
+          
+            
+              scikit-learn
+
+            /
+            
+            
+          
+          <div class="date">
+            March 2020
+          </div>
+        </div>
+        </a>
+        <hr>
+
+
+        <a href="https://github.com/satyadwyoom/self-driving-car" target="blank">
+          <div class="projectpreview">
+            
+              <img src="assets/simulator.jpeg">
+            
+            Simulating a Self Driving Car<br />
+            
+              
+              
+            
+              
+                python
+              
+              / 
+            
+              
+                keras
+  
+              
+              
+            
+            <div class="date">
+              August 2019
+            </div>
+          </div>
+          </a>
+          <hr>
+
+
+
+
+          
+            <div class="projectpreview">
+              
+                <img src="assets/default.png">
+              
+                <a href="https://github.com/satyadwyoom/wifi-packets-monitor" target="blank">People Counter approach using WiFi packets</a>
+                <p>Uses an ESP8266 bluetooth Module which fetches WiFi packets emitted by smartphones to count number of people present in an area. It can be used in home intrusion detection, present public transport to counter problem related to energy consumption vs number of passengers.</p>
+                
+    
+                
+                
+              
+              <div class="date">
+                March 2019
+              </div>
+            </div>
+            <hr>
+    
+  
+  </div>
+  
+    
+    
+
+  <div class="hoverlist" id="research">
+  <h2>RESEARCH</h2>
+  <hr>
+  
+    
+      
+        <!-- <a href="https://awacrl.github.io/"> -->
+        <div class="projectpreview">
+          
+            <!-- <img src="https://media.giphy.com/media/JTVKsT3D5Wl4whglUv/giphy.gif"> -->
+          
+          <div class="researchtitle">
+            <b>Black box attack scenario for distracted driving detection</b><br> -- Work under progress<br />
+
+            
+              <!-- [<a href="http://arxiv.org/abs/2006.09359">PDF</a>] -->
+            
+            <!-- [<a href="https://awacrl.github.io/">Website</a>] -->
+            <!-- <div class="date"> -->
+              <!-- Jun 2020 -->
+            <!-- </div> -->
+          </div>
+        </div>
+        <!-- </a> -->
+        <hr>
+      
+    
+  
+  </div>
+  
+  
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <!-- <li><a href="mailto:satyadwyoom.ec18@nsut.ac.in">Email me</a></li> -->
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/anair13">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">satyadwyoom</span>
+            </a>
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">
+</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
